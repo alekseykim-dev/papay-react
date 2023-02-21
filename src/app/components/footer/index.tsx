@@ -18,16 +18,24 @@ export function Footer() {
               </Box>
               <Stack className="contact_links">
                 <Box>
-                  <img src="/icons/facebook.svg" alt="facebook" />
+                  <a href="https://youtu.be/EOK6_cX35QM">
+                    <img src="/icons/facebook.svg" alt="facebook" />
+                  </a>
                 </Box>
                 <Box>
-                  <img src="/icons/twitter.svg" alt="twitter" />
+                  <a href="https://youtu.be/EOK6_cX35QM">
+                    <img src="/icons/twitter.svg" alt="twitter" />
+                  </a>
                 </Box>
                 <Box>
-                  <img src="/icons/instagram.svg" alt="instagram" />
+                  <a href="https://youtu.be/cU0Wz1ez3J0">
+                    <img src="/icons/instagram.svg" alt="instagram" />
+                  </a>
                 </Box>
                 <Box>
-                  <img src="/icons/youtube.svg" alt="youtube" />
+                  <a href="https://youtu.be/cU0Wz1ez3J0">
+                    <img src="/icons/youtube.svg" alt="youtube" />
+                  </a>
                 </Box>
               </Stack>
             </Stack>
