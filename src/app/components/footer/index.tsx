@@ -13,8 +13,7 @@ export function Footer() {
               </Box>
               <Box className="main_text">
                 Lorem ipsum dolor sit amet consectetur, adipisicing elit. Et,
-                corrupti quis. Quidem voluptatum temporibus impedit dolor itaque
-                tenetur nisi.
+                corrupti quis. Quidem voluptatum temporibus.
               </Box>
               <Stack className="contact_links">
                 <Box>
@@ -42,7 +41,10 @@ export function Footer() {
             <Stack className="parts">
               <Box className="part_subject">Content</Box>
               <Box className="divider"></Box>
-              <Box></Box>
+              <Box className="targets target" sx={{ mt: "5px" }}>Home</Box>
+              <Box className="targets" >Restaurants</Box>
+              <Box className="targets">Community</Box>
+              <Box className="targets">Help</Box>
             </Stack>
             <Stack className="find_us">
               <Box className="find">Contact us</Box>

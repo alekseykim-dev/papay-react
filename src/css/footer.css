@@ -25,7 +25,7 @@
     height: 97.22px;
     margin-top: 19px;
 
-    font-family: "Poppins";
+    font-family: "Poppins", sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
@@ -60,10 +60,10 @@
     width: 109.98px;
     height: 32.41px;
 
-    font-family: "Poppins";
+    font-family: "Poppins", sans-serif;
     font-style: normal;
     font-weight: 600;
-    font-size: 24px;
+    font-size: 22px;
     line-height: 34px;
     /* or 142% */
 
@@ -80,19 +80,17 @@
 
 .parts .targets {
     position: relative;
-    width: 118.05px;
-    height: 129.63px;
-    margin-top: 19.6px;
+    width: 118px;
 
-    font-family: "Poppins";
+
+    font-family: "Poppins", sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
     line-height: 34px;
-    /* or 142% */
-
     color: #e3c08d;
 }
+
 
 .footer_config .liner {
     position: relative;
@@ -109,7 +107,7 @@
     height: 32px;
     margin-top: 15px;
 
-    font-family: "Poppins";
+    font-family: "Poppins", sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
@@ -139,10 +137,10 @@
     width: 116.87px;
     height: 32.91px;
 
-    font-family: "Poppins";
+    font-family: "Poppins", sans-serif;
     font-style: normal;
     font-weight: 600;
-    font-size: 24px;
+    font-size: 22px;
     line-height: 34px;
     /* or 142% */
 
@@ -169,7 +167,7 @@
     position: relative;
     width: 15.01px;
     height: 32.91px;
-    font-family: "Poppins";
+    font-family: "Poppins", sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 18px;
@@ -183,7 +181,7 @@
     height: 32.91px;
     margin-left: 11.79px;
 
-    font-family: "Poppins";
+    font-family: "Poppins", sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
