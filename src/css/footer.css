@@ -78,6 +78,16 @@
     background: #e3c08d;
 }
 
+.targets a {
+    text-decoration: none;
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 34px;
+    color: #e3c08d;
+}
+
 .parts .targets {
     position: relative;
     width: 118px;
@@ -91,6 +101,11 @@
     color: #e3c08d;
 }
 
+
+
+/* .targets a::before{
+    text-decoration: none;
+} */
 
 .footer_config .liner {
     position: relative;

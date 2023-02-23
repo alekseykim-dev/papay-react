@@ -1,5 +1,7 @@
 import { Box, Container, Stack } from "@mui/material";
 import React from "react";
+import { NavLink } from "react-router-dom";
+
 
 export function Footer() {
   return (
@@ -9,7 +11,7 @@ export function Footer() {
           <Stack flexDirection={"row"} style={{ height: "242px" }}>
             <Stack className="info" flexDirection={"column"}>
               <Box>
-                <img src="/papay_footer.svg"></img>
+                <img src="/papay_footer.svg" alt="papay"></img>
               </Box>
               <Box className="main_text">
                 Lorem ipsum dolor sit amet consectetur, adipisicing elit. Et,
@@ -41,10 +43,26 @@ export function Footer() {
             <Stack className="parts">
               <Box className="part_subject">Content</Box>
               <Box className="divider"></Box>
-              <Box className="targets target" sx={{ mt: "5px" }}>Home</Box>
-              <Box className="targets" >Restaurants</Box>
-              <Box className="targets">Community</Box>
-              <Box className="targets">Help</Box>
+              <Box className="targets target" sx={{ mt: "5px" }}>
+                <NavLink to="/" >
+                  Home
+                </NavLink>
+              </Box>
+              <Box className="targets">
+                <NavLink to="/restaurant">
+                  Restaurants
+                </NavLink>
+              </Box>
+              <Box className="targets">
+                <NavLink to="/community" >
+                  Community
+                </NavLink>
+              </Box>
+              <Box className="targets">
+                <NavLink to="/help">
+                  Help
+                </NavLink>
+              </Box>
             </Stack>
             <Stack className="find_us">
               <Box className="find">Contact us</Box>
