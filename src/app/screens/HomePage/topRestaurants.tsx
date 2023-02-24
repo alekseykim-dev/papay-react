@@ -26,14 +26,18 @@ export function TopRestaurants() {
               <Card
                 sx={{
                   minHeight: "430px",
-                  width: 325,
+                  minWidth: 325,
                   mr: "15px",
                   ml: "15px",
                   cursor: "pointer",
                 }}
               >
                 <CardCover>
-                  <img src="/restaurant/sample.png" loading="lazy" alt="" />
+                  <img
+                    src="/restaurant/sample.png"
+                    loading="lazy"
+                    alt="restaurant"
+                  />
                 </CardCover>
                 <CardCover
                   sx={{
@@ -115,7 +119,11 @@ export function TopRestaurants() {
                 }}
               >
                 <CardCover>
-                  <img src="/restaurant/sample.png" loading="lazy" alt="" />
+                  <img
+                    src="/restaurant/sample.png"
+                    loading="lazy"
+                    alt="restaurant"
+                  />
                 </CardCover>
                 <CardCover
                   sx={{
@@ -197,7 +205,11 @@ export function TopRestaurants() {
                 }}
               >
                 <CardCover>
-                  <img src="/restaurant/sample.png" loading="lazy" alt="" />
+                  <img
+                    src="/restaurant/sample.png"
+                    loading="lazy"
+                    alt="restaurant"
+                  />
                 </CardCover>
                 <CardCover
                   sx={{
@@ -279,7 +291,11 @@ export function TopRestaurants() {
                 }}
               >
                 <CardCover>
-                  <img src="/restaurant/sample.png" loading="lazy" alt="" />
+                  <img
+                    src="/restaurant/sample.png"
+                    loading="lazy"
+                    alt="restaurant"
+                  />
                 </CardCover>
                 <CardCover
                   sx={{

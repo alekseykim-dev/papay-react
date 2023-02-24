@@ -14,7 +14,7 @@ import React from "react";
 export function NavbarRestaurant(props: any) {
   return (
     <div className="format_restaurant home_navbar">;
-      <Container>
+      <Container >
         <Stack
           flexDirection={"row"}
           className="navbar_config"
@@ -64,7 +64,7 @@ export function NavbarRestaurant(props: any) {
                 //onClick={handleClick}
               >
                 <Badge badgeContent={3} color="secondary">
-                  <img src="/icons/shopping_cart.svg" />
+                  <img src="/icons/shopping_cart.svg" alt="cart"/>
                 </Badge>
               </IconButton>
             </Box>

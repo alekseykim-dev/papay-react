@@ -31,8 +31,8 @@ export function Statistics() {
           <Stack className="static_box">
             <Box className="static_num">200+</Box>
             <Box className="static_text">Users</Box>
-            <div className="character_img right"></div>
           </Stack>
+            <div className="character_img right"></div>
         </Stack>
       </Container>
     </div>
