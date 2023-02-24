@@ -1,7 +1,7 @@
 import React from "react";
 import { Favorite, Visibility } from "@mui/icons-material";
-import { AspectRatio, CardOverflow, CssVarsProvider, IconButton, Link } from "@mui/joy";
-import { Box, Card, Container, Stack } from "@mui/material";
+import { AspectRatio,Card ,CardOverflow, CssVarsProvider, IconButton, Link } from "@mui/joy";
+import { Box, Button, Container, Stack } from "@mui/material";
 import Typography from "@mui/joy/Typography";
 import LocationOnRoundedIcon from "@mui/icons-material/LocationOnRounded";
 import CallIcon from "@mui/icons-material/Call";
@@ -16,7 +16,7 @@ export function BestRestaurants() {
         alt="line"
         style={{ position: "absolute", left: "6%", transform: " rotate(90%)" }}
       />
-      <Container sx={{ mt: "153px" }}>
+      <Container sx={{ paddingTop: "153px" }}>
         <Stack flexDirection={"column"} alignItems={"center"}>
           <Box className="category_title">Best Restaurants</Box>
           <Stack flexDirection={"row"} sx={{ mt: "43px" }}>
@@ -402,6 +402,12 @@ export function BestRestaurants() {
                 </CardOverflow>
               </Card>
             </CssVarsProvider>
+          </Stack>
+
+          <Stack flexDirection={"row"} justifyContent={"flex-end"} sx={{ width: "100%", marginTop:"16px" }}>
+            <Button sx={{ background: "#1976d2", color: "white" }}>
+              See All
+            </Button>
           </Stack>
         </Stack>
       </Container>
