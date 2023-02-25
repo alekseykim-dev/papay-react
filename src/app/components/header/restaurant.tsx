@@ -13,8 +13,9 @@ import React from "react";
 
 export function NavbarRestaurant(props: any) {
   return (
-    <div className="format_restaurant home_navbar">;
-      <Container >
+    <div className="format_restaurant home_navbar">
+      ;
+      <Container>
         <Stack
           flexDirection={"row"}
           className="navbar_config"
@@ -30,9 +31,7 @@ export function NavbarRestaurant(props: any) {
             className="navbar_links"
           >
             <Box className="hover-line" onClick={props.setPath}>
-              <NavLink to="/" >
-                Home
-              </NavLink>
+              <NavLink to="/">Home</NavLink>
             </Box>
             <Box className="hover-line" onClick={props.setPath}>
               <NavLink to="/restaurant" activeClassName="underline">
@@ -56,15 +55,15 @@ export function NavbarRestaurant(props: any) {
             </Box>
             <Box className="hover-line" onClick={props.setPath}>
               <IconButton
-                aria-label="cart"
+                aria-labelledby="cart"
                 id="basic-button"
                 aria-controls={undefined}
-                aria-aria-haspopup="true"
+                aria-haspopup="true"
                 aria-expanded={undefined}
                 //onClick={handleClick}
               >
                 <Badge badgeContent={3} color="secondary">
-                  <img src="/icons/shopping_cart.svg" alt="cart"/>
+                  <img src="/icons/shopping_cart.svg" alt="cart" />
                 </Badge>
               </IconButton>
             </Box>

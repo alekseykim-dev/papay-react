@@ -11,8 +11,8 @@ import { NavLink } from "react-router-dom";
 
 export function NavbarHome(props: any) {
   return (
-    <div className="format home_navbar"  >
-      <Container >
+    <div className="format home_navbar">
+      <Container>
         <Stack
           flexDirection={"row"}
           className="navbar_config"
@@ -54,15 +54,15 @@ export function NavbarHome(props: any) {
             </Box>
             <Box className="hover-line" onClick={props.setPath}>
               <IconButton
-                aria-label="cart"
+                aria-labelledby="cart"
                 id="basic-button"
                 aria-controls={undefined}
-                aria-aria-haspopup="true"
+                aria-haspopup="true"
                 aria-expanded={undefined}
                 //onClick={handleClick}
               >
                 <Badge badgeContent={3} color="secondary">
-                  <img src="/icons/shopping_cart.svg" alt="cart"/>
+                  <img src="/icons/shopping_cart.svg" alt="cart" />
                 </Badge>
               </IconButton>
             </Box>

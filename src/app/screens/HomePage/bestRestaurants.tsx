@@ -37,7 +37,7 @@ export function BestRestaurants() {
                     <img src="/restaurant/best.jpeg" alt="best" />
                   </AspectRatio>
                   <IconButton
-                    aria-label="like minimal photography"
+                    aria-labelledby="like minimal photography"
                     size="md"
                     variant="solid"
                     color="neutral"
@@ -132,7 +132,7 @@ export function BestRestaurants() {
                     <img src="/restaurant/best.jpeg" alt="best" />
                   </AspectRatio>
                   <IconButton
-                    aria-label="like minimal photography"
+                    aria-labelledby="like minimal photography"
                     size="md"
                     variant="solid"
                     color="neutral"
@@ -227,7 +227,7 @@ export function BestRestaurants() {
                     <img src="/restaurant/best.jpeg" alt="best" />
                   </AspectRatio>
                   <IconButton
-                    aria-label="like minimal photography"
+                    aria-labelledby="like minimal photography"
                     size="md"
                     variant="solid"
                     color="neutral"
@@ -322,7 +322,7 @@ export function BestRestaurants() {
                     <img src="/restaurant/best.jpeg" alt="best" />
                   </AspectRatio>
                   <IconButton
-                    aria-label="like minimal photography"
+                    aria-labelledby="like minimal photography"
                     size="md"
                     variant="solid"
                     color="neutral"
@@ -404,7 +404,11 @@ export function BestRestaurants() {
             </CssVarsProvider>
           </Stack>
 
-          <Stack flexDirection={"row"} justifyContent={"flex-end"} sx={{ width: "100%", marginTop:"16px" }}>
+          <Stack
+            flexDirection={"row"}
+            justifyContent={"flex-end"}
+            sx={{ width: "100%", marginTop: "16px" }}
+          >
             <Button sx={{ background: "#1976d2", color: "white" }}>
               See All
             </Button>

@@ -31,9 +31,7 @@ export function NavbarOthers(props: any) {
             className="navbar_links"
           >
             <Box className="hover-line" onClick={props.setPath}>
-              <NavLink to="/" >
-                Home
-              </NavLink>
+              <NavLink to="/">Home</NavLink>
             </Box>
             <Box className="hover-line" onClick={props.setPath}>
               <NavLink to="/restaurant" activeClassName="underline">
@@ -57,10 +55,10 @@ export function NavbarOthers(props: any) {
             </Box>
             <Box className="hover-line" onClick={props.setPath}>
               <IconButton
-                aria-label="cart"
+                aria-labelledby="cart"
                 id="basic-button"
                 aria-controls={undefined}
-                aria-aria-haspopup="true"
+                aria-haspopup="true"
                 aria-expanded={undefined}
                 //onClick={handleClick}
               >

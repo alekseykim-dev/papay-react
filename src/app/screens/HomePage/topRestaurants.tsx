@@ -67,7 +67,7 @@ export function TopRestaurants() {
                   }}
                 >
                   <IconButton
-                    aria-label="like minimal photography"
+                    aria-labelledby="like minimal photography"
                     size="md"
                     variant="solid"
                     color="neutral"
@@ -153,7 +153,7 @@ export function TopRestaurants() {
                   }}
                 >
                   <IconButton
-                    aria-label="like minimal photography"
+                    aria-labelledby="like minimal photography"
                     size="md"
                     variant="solid"
                     color="neutral"
@@ -239,7 +239,7 @@ export function TopRestaurants() {
                   }}
                 >
                   <IconButton
-                    aria-label="like minimal photography"
+                    aria-labelledby="like minimal photography"
                     size="md"
                     variant="solid"
                     color="neutral"
@@ -325,7 +325,7 @@ export function TopRestaurants() {
                   }}
                 >
                   <IconButton
-                    aria-label="like minimal photography"
+                    aria-labelledby="like minimal photography"
                     size="md"
                     variant="solid"
                     color="neutral"
