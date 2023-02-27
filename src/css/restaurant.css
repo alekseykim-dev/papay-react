@@ -879,7 +879,7 @@
 
 .chosen_dish_page .chosen_dish_slider {
     width: 48%;
-    height: 470px;
+    height: 550px;
 
 }
 
@@ -894,7 +894,7 @@
 .chosen_dish_page .chosen_dish_info_container {
     padding: 30px 40px;
     width: 49%;
-    height: 470px;
+    height: 410px;
     display: flex;
     background: #fff;
     box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25),
@@ -902,10 +902,7 @@
     border-radius: 12px;
 }
 
-.chosen_dish_page .dish_swiper_down {
-    width: 100%;
-    height: 107px;
-}
+
 
 .chosen_dish_page .dish_swiper_down_swiper {
     margin-top: 20px;
@@ -916,35 +913,32 @@
 .chosen_dish_page .chosen_dish_info_container .chosen_dish_info_box {
     width: 100%;
     height: auto;
+    font-weight: 600px;
     display: flex;
+    font-style: normal;
     flex-direction: column;
+    font-family: 'Poppins', sans-serif;
 }
 
 .chosen_dish_page .chosen_dish_info_box .dish_txt {
-    font-family: 'Poppins', sans-serif;
-    font-style: normal;
-    font-weight: 600;
     font-size: 30px;
-    line-height: 45px;
+    line-height: 36px;
 
-    color: #000000;
+
 }
 
 .chosen_dish_page .chosen_dish_info_box .resto_name {
     margin-top: 16px;
-    font-family: 'Poppins', sans-serif;
-    font-style: normal;
-    font-weight: 600;
-    font-size: 14px;
+    font-size: 17px;
     line-height: 15px;
-    color: #a3a2a2;
+    color: grey;
+    font-style: italic;
 }
 
 .chosen_dish_page .chosen_dish_info_box .rating_box {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    align-items: center;
     margin-top: 20px;
 }
 
@@ -954,25 +948,17 @@
 
 .chosen_dish_page .chosen_dish_info_box .dish_desc_info {
     height: 115px;
-    margin-bottom: 30px;
-    font-family: 'Poppins', sans-serif;
-    font-style: normal;
-    font-weight: 600;
     font-size: 18px;
     line-height: 22px;
-    color: #000000;
+   
 }
 
 .chosen_dish_page .chosen_dish_info_box .dish_price_box {
     display: flex;
     justify-content: space-between;
-    font-family: 'Poppins', sans-serif;
-    font-style: normal;
-    font-weight: 600;
-    font-size: 21px;
+    font-size: 20px;
     line-height: 22px;
-    color: #000000;
-    margin-top: 20px;
+    margin-top: 15px;
 }
 
 .chosen_dish_page .chosen_dish_info_box .button_box {
@@ -980,10 +966,3 @@
     justify-content: center;
 }
 
-.chosen_dish_page .chosen_dish_info_box .button_box Button {
-    width: 230px;
-    height: 44px;
-    margin-top: 20px;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), inset 0px 4px 4px rgba(0, 0, 0, 0.25);
-
-}

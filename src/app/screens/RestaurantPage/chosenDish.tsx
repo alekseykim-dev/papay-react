@@ -1,5 +1,5 @@
 import React from "react";
-import { Favorite, Key } from "@mui/icons-material";
+import { Favorite } from "@mui/icons-material";
 import { Box, Container, Rating, Stack, Button } from "@mui/material";
 import FavoriteBorder from "@mui/icons-material/FavoriteBorder";
 import { FreeMode, Navigation, Thumbs } from "swiper";
@@ -43,16 +43,16 @@ export function ChosenDish() {
             })}
           </Swiper>
 
-          <Stack className={"dish_swiper_down"}>
+          <Stack>
             <Swiper
               className={"dish_swiper_down_swiper"}
               loop={true}
               slidesPerView={3}
-              spaceBetween={10}
+              spaceBetween={25}
             >
-              {Array.from(Array(7).keys()).map((ele) => {
+              {chosen_list.map((ele, index) => {
                 return (
-                  <SwiperSlide>
+                  <SwiperSlide key={`${index}`}>
                     <img
                       style={{
                         width: "100%",
