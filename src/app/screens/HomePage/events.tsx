@@ -84,9 +84,13 @@ export function Events() {
           >
             {events_list.map((value, number) => {
               return (
-                <SwiperSlide className={"events_info_frame"}>
+                <SwiperSlide className={"events_info_frame"} key={number}>
                   <div className={"events_img"}>
-                    <img src={value.img} className={"events_img"} alt="events" />
+                    <img
+                      src={value.img}
+                      className={"events_img"}
+                      alt="events"
+                    />
                   </div>
                   <Box className={"events_desc"}>
                     <Box className={"events_bott"}>

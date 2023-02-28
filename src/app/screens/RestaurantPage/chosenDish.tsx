@@ -45,7 +45,7 @@ export function ChosenDish() {
 
           <Stack>
             <Swiper
-              className={"dish_swiper_down_swiper"}
+              className={"dish_swiper_mini"}
               loop={true}
               slidesPerView={3}
               spaceBetween={25}
