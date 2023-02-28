@@ -47,20 +47,21 @@ export function Events() {
       <Container sx={{ overflow: "hidden" }}>
         <Stack className={"events_main"}>
           <Box className={"events_text"}>
-            <span className={"category_title"}>Hodisalar</span>
+            <span className={"category_title"}>Events</span>
           </Box>
           <Box className={"prev_next_frame"}>
             <img
               src={"/icons/arrow-left.svg"}
               className={"swiper-button-prev"}
-              style={{cursor: "pointer"}}
-              
+              style={{ cursor: "pointer" }}
+              alt="arrow"
             />
             <div className={"dot_frame_pagination swiper-pagination"}></div>
             <img
               src={"/icons/arrow-left.svg"}
               className={"swiper-button-next"}
               style={{ transform: "rotate(-180deg)", cursor: "pointer" }}
+              alt="arrow"
             />
           </Box>
           <Swiper
@@ -85,7 +86,7 @@ export function Events() {
               return (
                 <SwiperSlide className={"events_info_frame"}>
                   <div className={"events_img"}>
-                    <img src={value.img} className={"events_img"} />
+                    <img src={value.img} className={"events_img"} alt="events" />
                   </div>
                   <Box className={"events_desc"}>
                     <Box className={"events_bott"}>
@@ -96,6 +97,7 @@ export function Events() {
                             <img
                               src={"/icons/speaker.svg"}
                               style={{ width: "20px", marginRight: "10px" }}
+                              alt="icon"
                             />
                             <p className={"spec_text_author"}>{value.author}</p>
                           </div>
@@ -116,6 +118,7 @@ export function Events() {
                             <img
                               src={"/icons/calendar.svg"}
                               style={{ marginRight: "10px" }}
+                              alt="icon"
                             />
                             {value.date}
                           </div>
@@ -123,6 +126,7 @@ export function Events() {
                             <img
                               src={"/icons/location.svg"}
                               style={{ marginRight: "10px" }}
+                              alt="icon"
                             />
                             {value.location}
                           </div>
