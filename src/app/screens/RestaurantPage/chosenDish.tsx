@@ -24,6 +24,8 @@ export function ChosenDish() {
           <Swiper
             className="dish_swiper"
             loop={true}
+            mousewheel={true}
+            direction="vertical"
             spaceBetween={10}
             navigation={true}
             //thumbs={{ swiper: thumbSwiper}}

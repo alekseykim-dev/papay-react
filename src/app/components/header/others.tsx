@@ -63,7 +63,7 @@ export function NavbarOthers(props: any) {
                 //onClick={handleClick}
               >
                 <Badge badgeContent={3} color="secondary">
-                  <img src="/icons/shopping_cart.svg" />
+                  <img src="/icons/shopping_cart.svg" alt="cart" />
                 </Badge>
               </IconButton>
             </Box>

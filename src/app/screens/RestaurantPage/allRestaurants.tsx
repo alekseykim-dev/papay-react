@@ -28,10 +28,10 @@ export function AllRestaurants() {
         <Stack flexDirection={"column"} alignItems={"center"}>
           <Box className="fill_search_box">
             <Box className="fill_box">
-              <a href="#">Best</a>
-              <a href="#">Popular</a>
-              <a href="#">Trending</a>
-              <a href="#">New</a>
+              <a href="/restaurant">Best</a>
+              <a href="/restaurant">Popular</a>
+              <a href="/restaurant">Trending</a>
+              <a href="/restaurant">New</a>
             </Box>
             <Box className="search_big_box">
               <form className="search_form" action="" method="">
