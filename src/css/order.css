@@ -68,7 +68,8 @@
 
 .order_page .order_info_box .order_user_name {
     margin-top: 10px;
-    font-family: "Commissioner";
+    font-family: "Commissioner",
+        sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 28px;
@@ -77,7 +78,8 @@
 }
 
 .order_page .order_info_box .order_user_prof {
-    font-family: "Commissioner";
+    font-family: "Commissioner",
+        sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 20px;
@@ -94,7 +96,7 @@
 
 .order_page .order_info_box .spec_address_txt {
     margin-left: 5px;
-    font-family: "DM Sans";
+    font-family: "DM Sans", sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
@@ -111,7 +113,8 @@
     background: #f5f5f5;
     border-radius: 10px;
 
-    font-family: "Nunito";
+    font-family: "Nunito",
+        sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
@@ -129,7 +132,8 @@
     background: #f5f5f5;
     border-radius: 10px;
 
-    font-family: "Nunito";
+    font-family: "Nunito",
+        sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
@@ -231,7 +235,8 @@
     height: 36px;
     margin-left: 20px;
 
-    font-family: "Commissioner";
+    font-family: "Commissioner",
+        sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 22px;
@@ -254,7 +259,8 @@
 }
 
 .order_page .order_box_scroll .ordersName_price .priceBox p {
-    font-family: "Poppins";
+    font-family: "Poppins",
+        sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 18px;
@@ -313,7 +319,8 @@
 
 .order_page .total_price_box .boxTotal p {
     margin-left: 20px;
-    font-family: "Commissioner";
+    font-family: "Commissioner",
+        sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 14px;
@@ -323,7 +330,8 @@
 
 .order_page .total_price_box .boxTotal .data_compl {
     /*margin-left: 20px;*/
-    font-family: "Commissioner";
+    font-family: "Commissioner",
+        sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 14px;
