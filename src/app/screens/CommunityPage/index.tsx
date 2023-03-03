@@ -12,7 +12,7 @@ import PaginationItem from "@mui/material/PaginationItem";
 import ArrowBackIcon from "@mui/icons-material/ArrowBack";
 import ArrowForwardIcon from "@mui/icons-material/ArrowForward";
 
-const targetBoArticles = [1, 2, 3, 4]; // ???
+
 
 export function CommunityPage(props: any) {
   /** INITIALIZATIONS */
